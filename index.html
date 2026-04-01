@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Your Franchise</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <h2>iFranchise</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#model">Model</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h1>Start Your Franchise Journey</h1>
+        <p>Join thousands of successful franchise owners and start your own business today. Take the first step towards
+            financial freedom, build your own brand, and create a future full of growth and success.</p>
+        <a href="#contact" class="btn">Get Started</a>
+    </section>
+
+    <!-- Business Overview -->
+    <section class="section">
+        <h2>What is Franchising?</h2>
+        <p>Franchising allows you to start a business with an already successful brand and proven system.</p>
+    </section>
+
+    <!-- Franchise Model -->
+    <section class="section dark" id="model">
+        <h2>Why Choose Franchise?</h2>
+
+        <div class="cards" data-aos="fade-up">
+            <div class="card" data-aos="fade-up">
+                <h3>Low Risk</h3>
+                <p>Proven business model reduces failure chances.</p>
+            </div>
+
+            <div class="card" data-aos="fade-up">
+                <h3>Brand Support</h3>
+                <p>Work with established brand recognition.</p>
+            </div>
+
+            <div class="card" data-aos="fade-up">
+                <h3>Faster Growth</h3>
+                <p>Skip trial & error. Start earning quickly.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison -->
+    <section class="section">
+        <h2>Startup vs Franchise</h2>
+        <div class="cards">
+            <div class="card" data-aos="fade-up">
+                <h3>Startup </h3>
+                <p>High risk, no support, slow growth.</p>
+            </div>
+
+            <div class="card" data-aos="fade-up">
+                <h3>Franchise </h3>
+                <p>Low risk, full support, faster success.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="section dark" id="contact">
+        <h2>Start Your Franchise Journey</h2>
+
+        <div class="form-container">
+            <form id="form">
+
+                <div class="input-group">
+                    <input type="text" required>
+                    <label>Full Name</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="email" required>
+                    <label>Email Address</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="tel" required>
+                    <label>Phone Number</label>
+                </div>
+
+                <div class="input-group">
+                    <textarea rows="4" required></textarea>
+                    <label>Your Message</label>
+                </div>
+
+                <button type="submit" class="submit-btn">Apply Now</button>
+
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 iFranchise. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            duration: 800
+        });    
+    </script>
+</body>
+
+</html>
