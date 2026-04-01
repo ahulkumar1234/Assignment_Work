@@ -6,7 +6,7 @@ A modern, responsive landing page designed for promoting franchise opportunities
 
 ## 🌐 Live Demo
 
-👉 (Add your deployed link here - Netlify / Vercel)
+👉 https://assignment-work-mu.vercel.app
 
 ---
 
